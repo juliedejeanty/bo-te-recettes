@@ -25,7 +25,7 @@ require("functions/header.php");
             <p>Image</p> 
                 <input type="text" name="image" id="image"></input>
             <p>Ingrédients</p> 
-                <textarea name="ingrédients" id="ingrédients" cols="30" rows="10"></textarea>
+                <textarea name="ingredients" id="ingredients" cols="30" rows="10"></textarea>
             </div>
             
         </div>

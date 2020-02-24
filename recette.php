@@ -9,7 +9,7 @@ $pseudo = $_GET["pseudo"];
 
 <div class="btn">
     <a class="back" href="index.php">Retour</a>
-    <a class="plus" href="addRecette.php">
+    <a class="plus" href="formulaire.php">
         <i class="fas fa-plus-circle"></i>
     </a>
 </div>
