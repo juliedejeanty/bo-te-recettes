@@ -23,7 +23,8 @@ if( !empty($_POST["pseudo"])){
     //si le pseudo est dans la base de données
     else{
         session_start();
-        $pseudo =  $_POST["pseudo"];
+        $_SESSION["pseudo"] = $_POST["pseudo"];
+        $pseudo = $_POST["pseudo"];
         header("Location: ../recette.php?pseudo=$pseudo");
     }
 }

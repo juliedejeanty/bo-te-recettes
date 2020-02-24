@@ -88,11 +88,13 @@ body{
 .recette {
     background-color: #ecf1f5;
     display: flex;
+    flex-direction: column;
 }
 
 .btn{
     display: flex;
     position: absolute;
+    align-items: center;
 }
 
 .btn .back {
@@ -107,6 +109,7 @@ body{
 
 .miam{
     display: flex!important;
+    margin-top: 40px;
 
     .gauche{
         display: flex;
@@ -142,8 +145,8 @@ body{
 
     .droite{
         display: flex;
-        width: 50vw;
         flex-direction: column;
+        width: 50vw;
     }
 }
 
@@ -171,4 +174,63 @@ body{
     font-size: 40px;
     font-weight: 100;
     color: #2F252E;
+}
+
+
+//delete recette
+.fas.fa-trash {
+    font-size: 42px;
+    margin-top: 32px;
+    color: #FEA1A9;
+}
+
+//btn ajout recette
+.plus{
+    color: #FEA1A9;
+    font-size: 38px;
+    margin-left: 10px;
+    margin-top: 13px;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form{
+        display: flex;
+    }
+
+    h1{
+        font-family: 'Abril Fatface', cursive;
+        color :#FEA1A9;
+        font-size: 60px;
+    }
+
+    p{
+        color: #FEA1A9;
+        font-size: 20px;
+    }
+
+    textarea, input[type=text]{
+        margin-right: 30px;
+        border:none;
+        padding: 10px;
+        width: 300px;
+    }
+
+    #étapes, #ingrédients{
+        height: 140px;
+    }
+
+    input[type=submit]{
+        background-color: #FEA1A9;
+        color: white;
+        border: none;
+        width: 480px;
+        margin-top: 30px;
+        padding: 10px;
+        border-radius: 50px;
+    }
+    
 }
