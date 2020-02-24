@@ -18,7 +18,7 @@ require("functions/header.php");
             <p>Titre</p> 
                 <input type="text" name="recette" id="recette"></input>
             <p>Étapes</p> 
-            <textarea name="étapes" id="étapes" cols="30" rows="10"></textarea>
+            <textarea name="etapes" id="etapes" cols="30" rows="10"></textarea>
         </div>
 
         <div>

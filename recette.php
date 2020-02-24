@@ -45,9 +45,14 @@ while($result = $req->fetch(PDO::FETCH_ASSOC) ){
             <h2>Ingrédients</h2>
             <p><?php echo $result["ingredients"]; ?></p> <br>
             <h2>Étapes</h2>
-            <p><?php echo $result["étapes"]; ?></p>
+            <p><?php echo $result["etapes"]; ?></p>
             <a href="functions/deleteRecette.php?id=<?php echo $result["id"]?>"> 
-            <i class="fas fa-trash"> </i> </a>
+                <i class="fas fa-trash"> </i> 
+            </a>
+            <a href="functions/dupplicateRecette.php?id=<?php echo $result["id"]?>"> 
+                <i class="fas fa-copy"></i>
+            </a>
+
         </div>
 
        

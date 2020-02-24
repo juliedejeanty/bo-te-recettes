@@ -154,7 +154,7 @@ body {
   color: #2F252E;
 }
 
-.fas.fa-trash {
+.fas.fa-trash, .fas.fa-copy {
   font-size: 42px;
   margin-top: 32px;
   color: #FEA1A9;

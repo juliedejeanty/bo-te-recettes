@@ -177,8 +177,8 @@ body{
 }
 
 
-//delete recette
-.fas.fa-trash {
+//delete et dupplicate recette 
+.fas.fa-trash, .fas.fa-copy{
     font-size: 42px;
     margin-top: 32px;
     color: #FEA1A9;
@@ -192,6 +192,7 @@ body{
     margin-top: 13px;
 }
 
+//page formulaire 
 .formulaire{
     display: flex;
     flex-direction: column;
