@@ -13,6 +13,7 @@ require("functions/header.php");
     <h1>Ajouter une recette </h1>
 
     <form action="functions/addRecette.php" method="post">
+    <div>
         <div>
             <p>Titre</p> 
                 <input type="text" name="recette" id="recette"></input>
@@ -26,8 +27,10 @@ require("functions/header.php");
             <p>Ingrédients</p> 
                 <textarea name="ingrédients" id="ingrédients" cols="30" rows="10"></textarea>
             </div>
-        </form>
+            
+        </div>
         <input type="submit"></input>
+     </form>
 
 </div>
 </body>
